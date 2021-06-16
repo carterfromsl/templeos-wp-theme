@@ -1,0 +1,212 @@
+@-webkit-keyframes icon-spin {
+	0% {
+		-webkit-transform: rotate3d(0);
+	}
+	25% {
+		-webkit-transform: rotate3d(0, 1, 0.5, 1turn);
+	}
+	50% {
+		-webkit-transform: rotate3d(1, 1, 1, 0turn);
+	}
+	75% {
+		-webkit-transform: rotate3d(3, 1, -2, -1turn);
+	}
+}
+
+@keyframes icon-spin {
+	0% {
+		-webkit-transform: rotate3d(0);
+		transform: rotate3d(0);
+	}
+	25% {
+		-webkit-transform: rotate3d(0, 1, 0.5, 1turn);
+		transform: rotate3d(0, 1, 0.5, 1turn);
+	}
+	50% {
+		-webkit-transform: rotate3d(1, 1, 1, 0turn);
+		transform: rotate3d(1, 1, 1, 0turn);
+	}
+	75% {
+		-webkit-transform: rotate3d(3, 1, -2, -1turn);
+		transform: rotate3d(3, 1, -2, -1turn);
+	}
+}
+
+@-webkit-keyframes ticker {
+  0% {
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+  100% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@keyframes ticker {
+  0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+  100% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@-webkit-keyframes t-load-flicker {
+	0% {
+		-webkit-filter: invert(1);
+	}
+	25% {
+		-webkit-filter: invert(0);
+	}
+	50% {
+		-webkit-filter: invert(1);
+	}
+	75% {
+		-webkit-filter: invert(0);
+	}
+}
+
+@keyframes t-load-flicker {
+	0% {
+		-webkit-filter: invert(1);
+		filter: invert(1);
+	}
+	25% {
+		-webkit-filter: invert(0);
+		filter: invert(0);
+	}
+	50% {
+		-webkit-filter: invert(1);
+		filter: invert(1);
+	}
+	75% {
+		-webkit-filter: invert(0);
+		filter: invert(0);
+	}
+}
+
+@-webkit-keyframes t-flash-blue {
+	0% {
+		color: white;
+		background: mediumblue;
+		background: var(--blue);
+	}
+	50% {
+		color: mediumblue;
+		color: var(--blue);
+		background: white;
+	}
+}
+@keyframes t-flash-blue {
+	0% {
+		color: white;
+		background: mediumblue;
+		background: var(--blue);
+	}
+	50% {
+		color: mediumblue;
+		color: var(--blue);
+		background: white;
+	}
+}
+
+@-webkit-keyframes t-flash-red {
+	0% {
+		color: white;
+		background: orangered;
+		background: var(--red);
+	}
+	50% {
+		color: orangered;
+		color: var(--red);
+		background: white;
+	}
+}
+@keyframes t-flash-red {
+	0% {
+		color: white;
+		background: orangered;
+		background: var(--red);
+	}
+	50% {
+		color: orangered;
+		color: var(--red);
+		background: white;
+	}
+}
+
+@-webkit-keyframes t-flash-yellow {
+	0% {
+		color: black;
+		background: yellow;
+		background: var(--yellow);
+	}
+	50% {
+		color: yellow;
+		color: var(--yellow);
+		background: black;
+	}
+}
+@keyframes t-flash-yellow {
+	0% {
+		color: black;
+		background: yellow;
+		background: var(--yellow);
+	}
+	50% {
+		color: yellow;
+		color: var(--yellow);
+		background: black;
+	}
+}
+
+@-webkit-keyframes t-flash-black {
+	0% {
+		color: white;
+		background: black;
+	}
+	50% {
+		color: black;
+		background: white;
+	}
+}
+@keyframes t-flash-black {
+	0% {
+		color: white;
+		background: black;
+	}
+	50% {
+		color: black;
+		background: white;
+	}
+}
+
+@-webkit-keyframes t-flash-grey {
+	0% {
+		color: #aaa;
+		color: var(--dark);
+		background: mediumblue;
+		background: var(--blue);
+	}
+	50% {
+		color: mediumblue;
+		color: var(--blue);
+		background: #aaa;
+		background: var(--dark);
+	}
+}
+@keyframes t-flash-grey {
+	0% {
+		color: #aaa;
+		color: var(--dark);
+		background: mediumblue;
+		background: var(--blue);
+	}
+	50% {
+		color: mediumblue;
+		color: var(--blue);
+		background: #aaa;
+		background: var(--dark);
+	}
+}
