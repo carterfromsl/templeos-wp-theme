@@ -1,5 +1,6 @@
 # Temple OS Online
 ### WordPress Theme files for Temple OS Online
+View at: https://templeosonline.com/
 
 ## Shortcodes
 
